@@ -30,7 +30,7 @@
 cmake_minimum_required(VERSION 3.7)
 message(STATUS "CMake version ${CMAKE_VERSION}")
 
-project(RandomARQ)
+project(RandomXEQ)
 
 add_library(randomx
 src/aes_hash.cpp
@@ -182,7 +182,7 @@ target_include_directories(randomx
   $<INSTALL_INTERFACE:>
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/src>)
 
-set(RANDOMARQ_INCLUDE "${CMAKE_CURRENT_SOURCE_DIR}/src" CACHE STRING "RandomARQ Include path")
+set(RANDOMXEQ_INCLUDE "${CMAKE_CURRENT_SOURCE_DIR}/src" CACHE STRING "RandomXEQ Include path")
 
 if(TARGET generate-asm)
   add_dependencies(randomx generate-asm)

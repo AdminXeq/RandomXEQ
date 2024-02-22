@@ -41,8 +41,8 @@ Build dependencies: `cmake` (minimum 2.8.7) and `gcc` (minimum version 4.8, but 
 
 To build optimized binaries for your machine, run:
 ```
-git clone https://github.com/arqma/RandomARQ.git
-cd RandomARQ
+git clone https://github.com/equilibriacc/RandomXEQ.git
+cd RandomXEQ
 mkdir build && cd build
 cmake -DARCH=native ..
 make
